@@ -18,7 +18,6 @@ function sortear() {
         numero = obterNumeroAleatorio(de, ate);
         while (sorteados.includes(numero))
             numero = obterNumeroAleatorio(de, ate);
-        alert('')
 
         sorteados.push(numero);
 
